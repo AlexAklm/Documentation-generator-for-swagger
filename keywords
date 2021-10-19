@@ -23,7 +23,6 @@ in
 name
 required
 schema
-$ref
 securityDefinitions
 definitions
 servers

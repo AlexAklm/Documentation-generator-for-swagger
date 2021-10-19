@@ -1,24 +1,11 @@
-# Documentation-generator-for-swagger
+# План задач
 
 1. Построение грамматики для языка Swagger
-    1. Ключевые слова:
-        * swagger
-        * info
-            + description
-            + version
-            + title
-            + termsOfService
-            + contact
-                - email
-            + license
-                - name
-                - url
-        * host
-        * basePath
-        * tags
-        * name
-        * schemes
-        * paths
-        * securityDefinitions
-        * definitions
-        * externalDocs
+   * Определить алфавит терминалов(ключевые слова и т.п.)
+   * Определить алфавит нетерминалов
+   * Определить начальный символ
+   * Определить правила грамматики
+
+2. Построение парсера для *.js файла
+3. Построение модели машинного обучения для задачи кластеризации
+4. Тестирование
